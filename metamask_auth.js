@@ -1,0 +1,1 @@
+function createCookie(e,t,a){var o;if(a){var n=new Date;n.setTime(n.getTime()+24*a*60*60*1e3),o="; expires="+n.toGMTString()}else o="";document.cookie=escape(e)+"="+escape(t)+o+"; path=/"}function metamask_auth(){ethereum.enable().then((function(e){createCookie("auth",e[0],1)}))}console.clear();
